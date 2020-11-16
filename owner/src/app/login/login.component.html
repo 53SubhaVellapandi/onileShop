@@ -1,0 +1,58 @@
+<div class="split left">    
+             <div class="flip-box centered">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+             <h3>
+                <i>Pull your trolly</i>
+             </h3> 
+    <div class="centered">
+      <img src="../../assets/th.jpg">
+    </div>
+</div>
+<div class="flip-box-back">
+    <h3>
+    <i>..fill your trolly</i>
+</h3>
+</div>
+</div>
+</div>
+  </div>
+  
+  <div class="split right">
+    <div class="centered">
+      <img src="../../assets/th (1).jpg">
+        <!-- <div class="transbox"> -->
+          <div class="container">
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                   <!-- <form [formGroup]="loginForm"> -->
+          <div class="row">
+<div class="col-md-6">
+  <label class="monospace" >
+    Name:
+  </label>
+</div>
+<div class="col-md-6">    
+            <input type="text" formControlName="Name">
+          </div>  
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+            <label class="monospace">
+Password:            </label>
+            </div>
+            <div class="col-md-6">
+            <input type="password" formControlName="Password">
+            </div>
+          </div>
+          <button class="button">
+            <div class="pattern">
+              <div class="target inner bg4"></div>
+            </div>
+            <div class="text textCont" type="submit"> Login</div>
+          </button>
+
+          </form>
+        </div>  
+        <!-- </div> -->
+    </div>
+  </div>
